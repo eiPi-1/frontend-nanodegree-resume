@@ -19,9 +19,11 @@ var HTMLcontactGeneric = '<li class="flex-item"><span class="black-text">%contac
 var HTMLmobile = '<li class="flex-item"><span class="black-text fa fa-mobile"></span><span class="white-text">%data%</span></li>';
 var HTMLemail = '<li class="flex-item"><span class="black-text fa fa-envelope-o"></span><span class="white-text">%data%</span></li>';
 var HTMLtwitter = '<li class="flex-item"><span class="black-text fa fa-twitter-square"></span><span class="white-text">%data%</span></li>';
-var HTMLgithub = '<li class="flex-item"><span class="black-text fa fa-github-square"></span><span class="white-text">%data%</span></li>';
+var HTMLgithub = '<li class="flex-item"><a href="%url%"><span class="black-text fa fa-github-square"></span><span class="white-text">%data%</span></a></li>';
 var HTMLblog = '<li class="flex-item"><span class="black-text fa fa-rss-square"></span><span class="white-text">%data%</span></li>';
 var HTMLlocation = '<li class="flex-item"><span class="black-text fa fa-globe"></span><span class="white-text">%data%</span></li>';
+
+var HTMLnavItem = '<li class="nav__item"><a href="%url%"><span class="black-text">%data%</span></a></li>';
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
@@ -35,12 +37,14 @@ var HTMLworkTitle = ' - %data%</a>';
 var HTMLworkDates = '<div class="date-text">%data%</div>';
 var HTMLworkLocation = '<div class="location-text">%data%</div>';
 var HTMLworkDescription = '<p><br>%data%</p>';
+var HTMLworkJump = '<a nama="work">';
 
 var HTMLprojectStart = '<div class="project-entry"></div>';
-var HTMLprojectTitle = '<a href="#">%data%</a>';
+var HTMLprojectTitle = '<a href="%url%">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
 var HTMLprojectImage = '<img src="%data%">';
+var HTMLprojectJump = '<a nama="projects">';
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
 var HTMLschoolName = '<a href="#">%data%';
@@ -48,14 +52,16 @@ var HTMLschoolDegree = ' -- %data%</a>';
 var HTMLschoolDates = '<div class="date-text">%data%</div>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolMajor = '<em><br>Major: %data%</em>';
+var HTMLschoolJump = '<a nama="education">';
 
 var HTMLonlineClasses = '<h3>Online Classes</h3>';
 var HTMLonlineTitle = '<a href="%url%">%data%';
 var HTMLonlineSchool = ' - %data%</a>';
 var HTMLonlineDates = '<br><div class="date-text">%data%</div>';
 var HTMLonlineURL = '<br><a href="#">%data%</a>';
+var HTMLonlinesJump = '<a nama="online">';
 
-var HTMLBreakLine = '<br>';
+var HTMLbreakLine = '<br>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
