@@ -4,6 +4,7 @@ var bio = {
 	"role" : "Scientific Software Engineer",
 	"contacts" : {
 		"email" : "stoyanov.mariyan.m@gmail.com",
+		"github" : "https://github.com/eiPi-1",
 		"location" : "Stara Zagora, Bulgaria"
 	},
 	"image" : "images/me.jpg",
@@ -54,21 +55,24 @@ var work = {
     "title" : "Scientific Software Engineer",
 	"dates" : "October 2013 - Present",
 	"location" : "Stara Zagora, Bulgaria",
-	"description" : " Working on computer vision and machine learning algoriths for the dairy industry."
+	"description" : " Working on computer vision and machine learning algoriths for the dairy industry. \
+	(Python, R, Matlab, RabbitMQ, ZeroMQ)"
 	} , 
 	{
 	"employer" : "Admarketplace",
     "title" : "Data Software Engineer",
 	"dates" : "July 2012 - October 2013",
 	"location" : "Manhattan, NY, USA",
-	"description" : "Designed and implemented Natural Language Processing and Data Mining algorithms."
+	"description" : "Designed and implemented Natural Language Processing and Data Mining algorithms. \
+	(Python, Java, Lucene, Spring, MySQL, Vertica)"
 	} ,
 	{
 	"employer" : "InterDigital Communications",
     "title" : "Intern - Software Engineer",
 	"dates" : "April 2011 - September 2011",
 	"location" : "King of Prussia, PA, USA",
-	"description" : " Implemented tools for internal purposes and testing of wireless technologies."
+	"description" : " Implemented tools for internal purposes and testing of wireless technologies. \
+	(Python, Java, Bash)"
 	} ,
 	{
 	"employer" : "Condensed Matter Lab, Dr. Ramos, Drexel University",
