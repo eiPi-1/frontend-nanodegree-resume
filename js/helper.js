@@ -16,12 +16,12 @@ var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span class="white-text">%data%</span><hr/>';
 
 var HTMLcontactGeneric = '<li class="flex-item"><span class="black-text">%contact%</span><span class="white-text">%data%</span></li>';
-var HTMLmobile = '<li class="flex-item"><span class="black-text">mobile</span><span class="white-text">%data%</span></li>';
-var HTMLemail = '<li class="flex-item"><span class="black-text">email</span><span class="white-text">%data%</span></li>';
-var HTMLtwitter = '<li class="flex-item"><span class="black-text">twitter</span><span class="white-text">%data%</span></li>';
-var HTMLgithub = '<li class="flex-item"><span class="black-text">github</span><span class="white-text">%data%</span></li>';
-var HTMLblog = '<li class="flex-item"><span class="black-text">blog</span><span class="white-text">%data%</span></li>';
-var HTMLlocation = '<li class="flex-item"><span class="black-text">location</span><span class="white-text">%data%</span></li>';
+var HTMLmobile = '<li class="flex-item"><span class="black-text fa fa-mobile"></span><span class="white-text">%data%</span></li>';
+var HTMLemail = '<li class="flex-item"><span class="black-text fa fa-envelope-o"></span><span class="white-text">%data%</span></li>';
+var HTMLtwitter = '<li class="flex-item"><span class="black-text fa fa-twitter-square"></span><span class="white-text">%data%</span></li>';
+var HTMLgithub = '<li class="flex-item"><span class="black-text fa fa-github-square"></span><span class="white-text">%data%</span></li>';
+var HTMLblog = '<li class="flex-item"><span class="black-text fa fa-rss-square"></span><span class="white-text">%data%</span></li>';
+var HTMLlocation = '<li class="flex-item"><span class="black-text fa fa-globe"></span><span class="white-text">%data%</span></li>';
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
@@ -50,10 +50,12 @@ var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolMajor = '<em><br>Major: %data%</em>';
 
 var HTMLonlineClasses = '<h3>Online Classes</h3>';
-var HTMLonlineTitle = '<a href="#">%data%';
+var HTMLonlineTitle = '<a href="%url%">%data%';
 var HTMLonlineSchool = ' - %data%</a>';
-var HTMLonlineDates = '<div class="date-text">%data%</div>';
+var HTMLonlineDates = '<br><div class="date-text">%data%</div>';
 var HTMLonlineURL = '<br><a href="#">%data%</a>';
+
+var HTMLBreakLine = '<br>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
