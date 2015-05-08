@@ -1,7 +1,7 @@
 
 * {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   font-family: 'Playfair Display', serif;
 }
 
@@ -39,7 +39,7 @@ h3 {
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   line-height: 17px;
 }
 
@@ -74,7 +74,7 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #1199c3;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -83,7 +83,7 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #f3f3f3;
   line-height: 28px;
 }
 
@@ -93,20 +93,20 @@ a {
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #f5ae23;
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #f5ae23;
 }
 
 .white-text {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .mated {
-  background-color: #BCBBBB;
+  background-color: #bcbbbb;
 }
 
 .black-text {
@@ -115,18 +115,18 @@ a {
 }
 
 .gray {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   padding-bottom: 10px;
   clear:both;
 }
 
 .dark-gray {
-  background-color: #4A4A4A;
+  background-color: #4a4a4a;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #BCBBBB;
+  background-color: #bcbbbb;
 }
 
 .flex-box {
@@ -139,10 +139,7 @@ a {
 }
 
 .center-content {
-  padding-top: 2.5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 2.5%
+  padding: 2.5% 5% 2.5%;
 }
 
 ul {
@@ -163,7 +160,7 @@ img {
 /* Bar chart stuff */
 .chart div {
   font: 10px sans-serif;
-  background-color: #4A4A4A;
+  background-color: #4a4a4a;
   text-align: right;
   padding: 3px;
   margin: 1px;
